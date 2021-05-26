@@ -1,4 +1,4 @@
-document.addEventListener(('DOMContentLoaded'), () => {
+//document.addEventListener(('DOMContentLoaded'), () => {
     
     const menu = document.querySelector('.menu');
     const hamburgerMenu = document.querySelector('.humburger-menu');
@@ -10,4 +10,4 @@ document.addEventListener(('DOMContentLoaded'), () => {
 
     hamburgerMenu.addEventListener('click', toggleMenu);
 
-})
+//})

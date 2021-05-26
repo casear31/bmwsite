@@ -6,10 +6,13 @@ document.addEventListener('DOMContentLoaded', () => {
     const closeButton = document.querySelector('.modal__close');
 
     const openModal = () => {
-        modalWindow.classList.remove('hidden');
+        modalWindow.classList.remove('hidden'); 
+        disableScroll();
     }
+
     const closeModal = () => {
         modalWindow.classList.add('hidden');
+        enabledScroll();
     }
 
     moreElems.forEach((btn) => {
